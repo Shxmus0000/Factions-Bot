@@ -1,0 +1,20 @@
+{
+  "name": "factions-bot",
+  "version": "1.0.0",
+  "description": "Discord factions bot (structured, modular)",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "register:guild": "node src/discord/registerCommands.js --guild",
+    "register:global": "node src/discord/registerCommands.js --global"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.18",
+    "discord.js": "^14.22.1",
+    "dotenv": "^17.2.2",
+    "mineflayer": "^4.32.0",
+    "prismarine-auth": "^2.7.0",
+    "sqlite3": "^5.1.7"
+  }
+}
